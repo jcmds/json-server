@@ -20,12 +20,8 @@ The recommended way to run this container looks like this:
 $ docker run -d -p {OutsidePort}:80 -v  {AbsolutePathToJsonFile}:/data/db.json jcmds/jsonserver
 ```
 
-The above example exposes the JSON Server REST API on port 80, so that you can now browse to:
+The above example exposes the JSON Server REST API on port 80, so that you can now browse to **http://localhost/**
 
-```
-http://localhost/
-
-```
 ### Help
 
 You can supply any number of JSON Server arguments that will be passed through unmodified.
